@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-tags</title>
+    <link rel="stylesheet" href="sample.css">
+</head>
+<body>
+    <div class="html-tags">
+        <!-- delete -->
+        <p>this is<del> delete</del></p>
+        <hr>
+
+        <!-- details -->
+        <details>details <br>details</details>
+        <hr>
+
+        <!-- define -->
+        <p>it is <dfn>define</dfn> tag</p>
+        <hr>
+
+        <!-- dialog box -->
+        <dialog open="">dialog box</dialog><br><br><br>
+        <hr>
+
+        <!-- description list,description terms,description data -->
+          <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>White cold drink</dd>
+          </dl>
+          <hr>
+
+          <!-- emphasized text -->
+          <p>it is <em>emphasized</em> text</p>
+          <hr>
+
+          <!-- embed -->
+          <embed type="image/jpg" src="why-us-3.jpg" width="300" height="200">
+            <hr>
+
+          <!-- form,fieldset,legend,label,input-->
+          <form action="/action_page.php">
+            <fieldset>
+             <legend>Personalia:</legend>
+             <label for="fname">First name:</label>
+             <input type="text" id="fname" name="fname"><br><br>
+             <label for="lname">Last name:</label>
+             <input type="text" id="lname" name="lname"><br><br>
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email"><br><br>
+             <label for="birthday">Birthday:</label>
+             <input type="date" id="birthday" name="birthday"><br><br>
+             <input type="submit" value="Submit">
+            </fieldset>
+           </form>
+           <hr>
+
+           <!-- figure,figcation -->
+           <figure>
+            <img src="why-us-3.jpg" alt="Trulli" style="width:300px" height="300px">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+          </figure>
+          <hr>
+
+          <!-- footer -->
+          <footer>
+            <p>Author: Akash</p>
+            <p><a href="mailto:cnrakashcnr@gmail.com">cnrakashcnr@gmail.com</a></p>
+          </footer>
+          <hr>
+
+          <!-- heading h1-h6 -->
+          <h1>This is heading 1</h1>
+          <h2>This is heading 2</h2>
+          <h3>This is heading 3</h3>
+          <h4>This is heading 4</h4>
+          <h5>This is heading 5</h5>
+          <h6>This is heading 6</h6>
+          <hr>
+
+          <!-- header -->
+          <article>
+            <header>
+              <h1>A heading here</h1>
+              <p>Posted by John Doe</p>
+              <p>Some additional information here</p>
+            </header>
+            <p>Lorem Ipsum dolor set amet....</p>
+          </article>
+          <hr>
+
+          <!-- iframe -->
+          <iframe src="https://www.fabevy.com" title="fabevy">
+        </iframe>
+        <hr>
+
+        <!-- insert -->
+        <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+        <hr>
+
+        <!-- keyboard input -->
+        <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+        <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+        <hr>
+
+        <!-- list=order and un-order -->
+        <ul>
+          <li>name</li>
+          <li>name</li>
+          <li>name</li>
+        </ul>
+        <ol>
+          <li>name</li>
+          <li>name</li>
+          <li>name</li>
+        </ol>
+        <hr>
+
+        <!-- main -->
+        <main>
+          <h1>heading</h1>
+          <p>paragraph</p>
+        </main>
+        <hr>
+
+        <!-- map -->
+        <img src="why-us-3.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+        <map name="workmap">
+          <area shape="rect" coords="34,44,270,350" alt="Computer" href="mariana.htm">
+          <area shape="rect" coords="290,172,333,250" alt="Phone" href="julie.htm">
+          <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="daniel.htm">
+        </map>
+        <hr>
+
+        <!-- mark -->
+        <p>this is <mark>mark</mark> text.</p>
+        <hr>
+
+        <!-- meter -->
+        <label for="disk_c">Disk-C:</label>
+        <meter id="disk_c" value="8" min="0" max="10">8 out of 10</meter><br>
+        <hr>
+
+        <!-- navigation -->
+        <nav>
+          <a href="/html/">HTML</a> |
+          <a href="/css/">CSS</a> |
+          <a href="/js/">JavaScript</a> |
+          <a href="/python/">Python</a>
+          </nav>
+          <hr>
+
+          <!-- sript & no script -->
+          <script>
+            document.write("Hello World!")
+            </script>
+            <noscript>Your browser does not support JavaScript!</noscript>
+            <hr>
+
+            <!-- object -->
+            <object data="why-us-3.jpg" width="400" height="300"></object>
+            <hr>
+
+            <!-- option group -->
+            <form action="/action_page.php">
+              <label for="cars">Choose a car:</label>
+              <select name="cars" id="cars">
+                <optgroup label="Swedish Cars">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                </optgroup>
+                <optgroup label="German Cars">
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </optgroup>
+              </select>
+              <br><br>
+              <input type="submit" value="Submit">
+            </form>
+            <hr>
+
+            <!-- option -->
+            <select id="cars">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="opel">Opel</option>
+              <option value="audi">Audi</option>
+            </select>
+            <hr>
+            <!-- output -->
+            <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+              <input type="range" id="a" value="50">
+              +<input type="number" id="b" value="25">
+              =<output name="x" for="a b"></output>
+              </form>
+              <hr>
+
+              <!-- parameter -->
+              <p>add any file ex:audio</p>
+              <object data="file-name">
+                <param name="autoplay" value="true">
+              </object>
+              <hr>
+              
+              <!-- picture -->
+              <p>Resize the browser window to load different images.</p>
+              <picture>
+                <source media="(min-width:650px)" srcset="why-us-3.jpg">
+                <source media="(min-width:465px)" srcset="why-us-3.jpg">
+                <img src="why-us-3.jpg" alt="Flowers" style="width:auto;">
+              </picture>
+              <hr>
+    </div>
+</body>
+</html>
